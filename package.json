@@ -1,0 +1,31 @@
+{
+  "name": "saybot",
+  "version": "1.0.0",
+  "description": "tabot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saaibi/sayBot.git"
+  },
+  "keywords": [
+    "Bot",
+    "banco"
+  ],
+  "author": "saaibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saaibi/sayBot/issues"
+  },
+  "homepage": "https://github.com/saaibi/sayBot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cfenv": "^1.1.0",
+    "express": "^4.16.3",
+    "npm": "^6.4.1",
+    "request": "^2.88.0"
+  }
+}
