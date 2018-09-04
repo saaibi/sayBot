@@ -1,0 +1,13 @@
+applications:
+- name: mi-primer-saaibiflorez
+  command: npm start
+  disk_quota: 256M
+  env:
+    FB_VALIDATION_TOKEN: wilfersaaibi
+    FB_ACCESS_TOKEN: EAADquybbka4BAOphJwe8ZAMuKtEuWf5Jyt6MatIhlf3ZCg6ZAeMikseAy2PN2RVvIE1tkhsyUUegpzhz7uHy6GhV1SZAZCULbysanlw8hvZCkePRZBEUrZCSlasSz1WXnzAbazZCg9afpxNBfm130gt8Qjn6nreZA5EfVJMjZCEatn3cwygleO7Thru
+    NPM_CONFIG_PRODUCTION: "false"
+  instances: 1
+  memory: 64M
+  routes:
+  - route: mi-primer-saaibiflorez-0c8ee481.mybluemix.net
+  stack: cflinuxfs2

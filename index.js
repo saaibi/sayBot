@@ -10,12 +10,12 @@ const messagingHandler = require('./handler'), // El controlador dummy
 
 // Crear la aplicación express y montar el enrutador
 const app = express();
-app.use('/mi-primer-bot', bodyParser.json(), fbmRouter);
+app.use('/mi-primer-yesid', bodyParser.json(), fbmRouter);
 
 // Cargar el ambiente cloudfoundry
 const env = cfenv.getAppEnv();
 
 // Iniciar el servidor con la configuración del ambiente
 app.listen(env.port, env.bind,
-    () => console.log(`Mi primer bot listo en ${env.bind}:${env.port}`)
+    () => console.log(`Mi primer bot listo en http://${env.bind}:${env.port}`)
 );
